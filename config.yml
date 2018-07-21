@@ -1,0 +1,420 @@
+#----- CONFIG SURVIE -----#
+# Option #
+options:
+  prefix: "&7[&aIs&2M&6Shop&7] "
+  maniaz: "&aMz"
+  notHaveMoney: "&cVous n'avez pas assez d'argents !"
+  notHaveItem: "&cVous n'avez pas cet item !"
+#----- SHOP -----#
+shop:
+  spawn:
+    x: 0
+    y: 200
+    z: 0
+    yaw: 0
+    pitch: 0
+    world: world
+#----- PRICE -----#
+price:
+#
+#BUTCHER PRICE
+#
+  steaks:
+    64:
+      buy: 150
+      sell: 15
+    1:
+      buy:
+      sell:
+  pork:
+    64:
+      buy: 130
+      sell: 13
+    1:
+      buy:
+      sell:
+  chicken:
+    64:
+      buy: 110
+      sell: 11
+    1:
+      buy:
+      sell:
+  morues:
+    64:
+      buy: 350
+      sell: 35
+    1:
+      buy:
+      sell:
+  saumons:
+    64:
+      buy: 500
+      sell: 50
+    1:
+      buy:
+      sell:
+  globes:
+    32:
+      buy: 200
+      sell: 20
+    1:
+      buy:
+      sell:
+  clowns:
+    16:
+      buy: 320
+      sell: 32
+    1:
+      buy:
+      sell:
+  rabbit:
+    64:
+      buy: 100
+      sell: 10
+    1:
+      buy:
+      sell:
+  sheep:
+    64:
+      buy: 120
+      sell: 12
+    1:
+      buy:
+      sell:
+  eggs:
+    16:
+      buy: 60
+      sell: 6
+    1:
+      buy: 38
+      sell:
+  cuir:
+    64:
+      buy: 180
+      sell: 18
+    1:
+      buy: 29
+      sell:
+  plume:
+    64:
+      buy: 140
+      sell: 14
+    1:
+      buy:
+      sell:
+  wool:
+    64:
+      buy: 210
+      sell: 21
+    1:
+      buy: 33
+      sell:
+  pattes_lapin:
+    32:
+      buy: 640
+      sell: 64
+    1:
+      buy:
+      sell:
+#
+#SMITH PRICE
+#     
+  coal:
+    7:
+      buy: 600
+      sell: 60
+    1:
+      buy:
+      sell:
+  iron:
+    8:
+      buy: 120
+      sell: 12
+    1:
+      buy:
+      sell:
+  redstone:
+    32:
+      buy: 200
+      sell: 20
+    1:
+      buy:
+      sell:
+  lapis:
+    32:
+      buy: 160
+      sell: 16
+    1:
+      buy:
+      sell:
+  or:
+    8:
+      buy: 160
+      sell: 16
+    1:
+      buy:
+      sell:
+  diamond:
+    8:
+      buy: 240
+      sell: 24
+    1:
+      buy:
+      sell:
+#
+#CROQUE-MORT PRICE
+#
+  rotten:
+    64:
+      buy: 170
+      sell: 17
+  os:
+    64:
+      buy: 210
+      sell: 21
+  gunpowder:
+    64:
+      buy: 180
+      sell: 18
+  slimeblock:
+    16:
+      buy: 240
+      sell: 24
+  blazerod:
+    32:
+      buy:
+      sell: 15
+    1:
+      buy: 47
+      sell:
+  enderpearl:
+    16:
+      buy:
+      sell: 28
+    1:
+      buy: 175
+      sell:
+  larme-ghast:
+    8:
+      buy:
+      sell: 24
+    1:
+      buy: 300
+      sell:
+  string:
+    64:
+      buy: 150
+      sell: 15
+  eye:
+    16:
+      buy:
+      sell: 20
+    1:
+      buy: 125
+      sell:
+  arrow:
+    64:
+      buy: 130
+      sell: 13
+#
+#FARMER PRICE
+#
+  wheat:
+    64:
+      buy: 320
+      sell: 32
+    1:
+  wheat-seed:
+    64:
+      buy:
+      sell: 32
+    1:
+      buy: 35
+      sell:
+  potato:
+    64:
+      buy:
+      sell: 25
+    1:
+      buy: 40
+      sell:
+  carrot:
+    64:
+      buy:
+      sell: 20
+    1:
+      buy: 32
+      sell:
+  pumpkin:
+    32:
+      buy: 170
+      sell: 17
+    1:
+      buy:
+      sell:
+  pumpkin-seed:
+    32:
+      buy: 170
+      sell: 17
+    1:
+      buy: 26
+      sell:
+  melon:
+    32:
+      buy: 100
+      sell: 10
+  melon-seed:
+    1:
+      buy: 26
+  beetroot:
+    64:
+      buy: 170
+      sell: 17
+    1:
+      buy: 27
+      sell:
+  nether-wart:
+    64:
+      buy: 170
+      sell: 27
+    1:
+      buy: 42
+      sell:
+  apple:
+    32:
+      buy: 320
+      sell: 32
+    1:
+      buy: 100
+      sell:
+  chorus:
+    64:
+      buy: 350
+      sell: 35
+  mushroom:
+    64:
+      buy: 270
+      sell: 27
+    1:
+      buy: 43
+      sell:
+  sugar-cane:
+    64:
+      buy: 160
+      sell: 16
+    1:
+      buy: 25
+      sell:
+  cacao:
+    64:
+      buy: 120
+      sell: 12
+    1:
+      buy: 35
+      sell:
+  cactus:
+    64:
+      buy: 160
+      sell: 16
+    1:
+      buy: 25
+      sell:
+#
+#MINER PRICE
+#
+  granite:
+    64:
+      buy: 240
+      sell: 12
+    1:
+      buy:
+      sell:
+  andesite:
+    64:
+      buy: 240
+      sell: 12
+  diorite:
+    64:
+      buy: 240
+      sell: 12
+  cobble:
+    64:
+      buy: 280
+      sell: 14
+    1:
+      buy:
+      sell:
+  black_concrete:
+    32:
+      buy: 460
+      sell: 23
+  obsidian:
+    16:
+      buy: 640
+      sell: 32
+  prismarine_taille:
+    64:
+      buy: 700
+      sell: 35
+  prismarine_sombre:
+    64:
+      buy: 800
+      sell: 40
+  brique_rouge_nether:
+    64:
+      buy: 1000
+      sell: 50
+  packed_ice:
+    64:
+      buy:
+      sell: 27
+    32:
+      buy: 540
+      sell:
+  quartz_block:
+    64:
+      buy: 550
+      sell: 25
+  magma_cube:
+    64:
+      buy: 240
+      sell: 12
+#
+#BAZAR PRICE
+#
+  elytra:
+    1:
+      buy: 3500
+      sell: 120
+  beacon:
+    1:
+      buy: 4900
+      sell: 155
+  nametag:
+    16:
+      sell: 80
+  disque:
+    1:
+      sell: 17
+  sponge:
+    8:
+      sell: 80
+  dragon_head:
+    1:
+      sell: 90
+  ender_portal:
+    1:
+      buy: 4500
+  xp_bottle:
+    32:
+      buy: 1700
+  totem:
+    1:
+      buy: 1500
+  cobweb:
+    1:
+      buy: 35
+  shulkerbox:
+    1:
+      buy: 4500

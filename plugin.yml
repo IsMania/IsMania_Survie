@@ -1,0 +1,5 @@
+name: IsMania_Survie
+version: 1.0
+author: IsMania
+main: fr.ismania.survie.Main
+commands:
