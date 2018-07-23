@@ -263,7 +263,6 @@ public class PlayerInteractListener implements Listener {
 
 		inv.setItem(14, createItem(Material.ELYTRA, 1, "Elytra", "§eAcheter", "§cCoûte : §6" + price.elytraBuy1 + main.maniaz));
 		inv.setItem(23, createItem(Material.BEACON, 1, "Beacon", "§eAcheter", "§cCoûte : §6" + price.beaconBuy1 + main.maniaz));
-		inv.setItem(32, createItem(Material.ENDER_PORTAL_FRAME, 1, "Ender portal", "§eAcheter", "§cCoûte : §6" + price.enderPortalBuy1 + main.maniaz));
 		inv.setItem(41, createItem(Material.EXP_BOTTLE, 32, "Bouteilles d'xp", "§eAcheter", "§cCoûte : §6" + price.xpBottleBuy32 + main.maniaz));
 		inv.setItem(15, createItem(Material.TOTEM, 1, "Totem d'immortalité", "§eAcheter", "§cCoûte : §6" + price.totemBuy1 + main.maniaz));
 		inv.setItem(24, createItem(Material.WEB, 1, "Toile d'araignée", "§eAcheter", "§cCoûte : §6" + price.cobwebBuy1 + main.maniaz));

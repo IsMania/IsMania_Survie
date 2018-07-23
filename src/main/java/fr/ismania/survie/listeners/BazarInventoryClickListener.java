@@ -116,24 +116,6 @@ public class BazarInventoryClickListener implements Listener {
 
 			}
 
-		} else if(it.getType() == Material.ENDER_PORTAL_FRAME) {
-
-			if(it.getItemMeta().getLore().get(0).contains("Acheter")) {
-
-				if(it.getAmount() == 1) {
-
-					if(hasMoney(main.price.enderPortalBuy1)) {
-
-						main.buy(it.getType(), it.getAmount(), p, main.price.enderPortalBuy1);
-
-					} else {
-						p.sendMessage(main.notHaveMoney);
-					}
-
-				}
-
-			}
-
 		} else if(it.getType() == Material.EXP_BOTTLE) {
 
 			if(it.getItemMeta().getLore().get(0).contains("Acheter")) {

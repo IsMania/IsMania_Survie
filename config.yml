@@ -403,9 +403,6 @@ price:
   dragon_head:
     1:
       sell: 90
-  ender_portal:
-    1:
-      buy: 4500
   xp_bottle:
     32:
       buy: 1700

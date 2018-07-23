@@ -139,7 +139,6 @@ public class PriceShop {
 	// Buy
 	public double elytraBuy1 = getPriceBuy1("elytra");
 	public double beaconBuy1 = getPriceBuy1("beacon");
-	public double enderPortalBuy1 = getPriceBuy1("ender_portal");
 	public double xpBottleBuy32 = getPriceBuy32("xp_bottle");
 	public double totemBuy1 = getPriceBuy1("totem");
 	public double cobwebBuy1 = getPriceBuy1("cobweb");
