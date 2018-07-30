@@ -188,6 +188,38 @@ public class BazarInventoryClickListener implements Listener {
 
 			}
 
+		} else if(it.getType() == Material.POISONOUS_POTATO) {
+
+			if(it.getItemMeta().getLore().get(0).contains("Vendre")) {
+
+				if(it.getAmount() == 16) {
+
+					main.sell(it.getType(), it.getAmount(), p, main.price.poisonousPotatoSell16);
+
+				}
+
+			}
+
+		} else if(it.getType() == Material.SADDLE) {
+
+			if(it.getItemMeta().getLore().get(0).contains("Vendre")) {
+
+				if(it.getAmount() == 1) {
+
+					main.sell(it.getType(), it.getAmount(), p, main.price.saddleSell1);
+
+				}
+
+			} else if(it.getItemMeta().getLore().get(0).contains("Acheter")) {
+
+				if(it.getAmount() == 1) {
+
+					main.buy(it.getType(), it.getAmount(), p, main.price.saddleBuy1);
+
+				}
+
+			}
+
 		} else if(it.getType() == Material.RECORD_8) {
 
 			if(it.getItemMeta().getLore().get(0).contains("Vendre")) {

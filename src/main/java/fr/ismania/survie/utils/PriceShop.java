@@ -146,6 +146,7 @@ public class PriceShop {
 	public double enchantBookThorns3Buy1 = getPriceBuy1("enchant_book_thorns3");
 	public double enchantBookMendingBuy1 = getPriceBuy1("enchant_book_mending");
 	public double enchantBookLooting3Buy1 = getPriceBuy1("enchant_book_looting3");
+	public double saddleBuy1 = getPriceBuy1("selle");
 	// Sell
 	public double elytraSell1 = getPriceSell1("elytra");
 	public double beaconSell1 = getPriceSell1("beacon");
@@ -153,6 +154,8 @@ public class PriceShop {
 	public double disqueSell1 = getPriceSell1("disque");
 	public double spongSell8 = getPriceSell8("sponge");
 	public double dragonHeadSell1 = getPriceSell1("dragon_head");
+	public double poisonousPotatoSell16 = getPriceSell16("poisonous_potato");
+	public double saddleSell1 = getPriceSell1("selle");
 
 	public double getPriceBuy64(String itemName) {
 

@@ -415,3 +415,10 @@ price:
   shulkerbox:
     1:
       buy: 4500
+  poisonous_potato:
+    16:
+      sell: 48
+  selle:
+    1:
+      sell: 25
+      buy: 900

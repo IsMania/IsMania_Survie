@@ -260,13 +260,16 @@ public class PlayerInteractListener implements Listener {
 		inv.setItem(37, createItem(Material.RECORD_8, 1, "Disque", "§bVendre", "§aRaporte : §6" + price.disqueSell1 + main.maniaz));
 		inv.setItem(11, createItem(Material.SPONGE, 8, "Eponges", "§bVendre", "§aRaporte : §6" + price.spongSell8 + main.maniaz));
 		inv.setItem(20, createSkull(Material.SKULL, "Tête de l'ender dragon", "§bVendre", "§aRaporte : §6" + price.dragonHeadSell1 + main.maniaz));
+		inv.setItem(29, createItem(Material.POISONOUS_POTATO, 16, "Pommes de terre empoisonnées", "§bVendre", "§aRaporte : §6" + price.poisonousPotatoSell16 + main.maniaz));
+		inv.setItem(38, createItem(Material.SADDLE, 1, "Selle", "§bVendre", "§aRaporte : §6" + price.saddleSell1 + main.maniaz));
 
 		inv.setItem(14, createItem(Material.ELYTRA, 1, "Elytra", "§eAcheter", "§cCoûte : §6" + price.elytraBuy1 + main.maniaz));
 		inv.setItem(23, createItem(Material.BEACON, 1, "Beacon", "§eAcheter", "§cCoûte : §6" + price.beaconBuy1 + main.maniaz));
-		inv.setItem(41, createItem(Material.EXP_BOTTLE, 32, "Bouteilles d'xp", "§eAcheter", "§cCoûte : §6" + price.xpBottleBuy32 + main.maniaz));
-		inv.setItem(15, createItem(Material.TOTEM, 1, "Totem d'immortalité", "§eAcheter", "§cCoûte : §6" + price.totemBuy1 + main.maniaz));
-		inv.setItem(24, createItem(Material.WEB, 1, "Toile d'araignée", "§eAcheter", "§cCoûte : §6" + price.cobwebBuy1 + main.maniaz));
+		inv.setItem(32, createItem(Material.EXP_BOTTLE, 32, "Bouteilles d'xp", "§eAcheter", "§cCoûte : §6" + price.xpBottleBuy32 + main.maniaz));
+		inv.setItem(41, createItem(Material.TOTEM, 1, "Totem d'immortalité", "§eAcheter", "§cCoûte : §6" + price.totemBuy1 + main.maniaz));
+		inv.setItem(15, createItem(Material.WEB, 1, "Toile d'araignée", "§eAcheter", "§cCoûte : §6" + price.cobwebBuy1 + main.maniaz));
 		inv.setItem(33, createItem(Material.PURPLE_SHULKER_BOX, 1, "Shulkerbox", "§eAcheter", "§cCoûte : §6" + price.shulkerboxBuy1 + main.maniaz));
+		inv.setItem(42, createItem(Material.SADDLE, 1, "Selle", "§eAcheter", "§cCoûte : §6" + price.saddleBuy1 + main.maniaz));
 
 		p.openInventory(inv);
 
