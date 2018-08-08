@@ -3,3 +3,5 @@ version: 1.1
 author: IsMania
 main: fr.ismania.survie.Main
 commands:
+  ec:
+    descritpion: Open ender chest

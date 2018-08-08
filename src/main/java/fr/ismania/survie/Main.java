@@ -9,6 +9,7 @@ import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import fr.ismania.survie.commands.CommandEc;
 import fr.ismania.survie.listeners.BazarInventoryClickListener;
 import fr.ismania.survie.listeners.ButcherInventoryClickListener;
 import fr.ismania.survie.listeners.CroqueMortInteractListener;
@@ -58,6 +59,8 @@ public class Main extends JavaPlugin {
 		pm.registerEvents(new FarmerInventoryClickListener(this), this);
 		pm.registerEvents(new MinerInventoryClickListener(this), this);
 		pm.registerEvents(new BazarInventoryClickListener(this), this);
+
+		getCommand("ec").setExecutor(new CommandEc());
 
 		getLogger().info("Plugin survie activé !");
 
